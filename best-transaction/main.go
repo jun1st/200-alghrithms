@@ -52,7 +52,9 @@ func max(a, b int) int {
 }
 
 func main() {
-	strs := []int{7, 1, 5, 3, 6, 4}
+	strs := []int{7, 1, 1, 3, 6, 6}
+
+	fmt.Println(maxProfit(strs))
 
 	fmt.Println(maxProfit2(strs))
 }
